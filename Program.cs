@@ -23,7 +23,7 @@ foreach(var sor in File.ReadAllLines("eromuvek.txt").Skip(1))
     //if (data[0] != "S" || data[0] != "Z" || data[0].IsWhiteSpace())
     //{
     //    hibasSorokSzama++;
-    //    continue;
+    //    continue; 
     //}
     if(!int.TryParse(data[2] ,out int Kapacitas)) //"!"
     {
